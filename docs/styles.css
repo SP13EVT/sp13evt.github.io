@@ -49,23 +49,31 @@ font:20px Arial;
   padding: 8px 10px;
 }
 .sect2 {
-  border: 1px solid black;
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  /*border: 1px solid black;
   border-radius: 10px;
   margin: 10px;
-  width: 200px; /* default width for the boxes */
-  height: 500px; /* default height for the boxes */
-  display: grid;
+  width: 200px;
+  height: 500px;
+  display: table;
   align-items: center;
   justify-content: center;
   position: center;
   text-decoration: none;
-/*   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
 }
-.sect2 img{
+/* .sect2 img{
   border-radius: 10px;
   object-fit: cover;
   position: absolute;
   top: 0;
   left: 0;
   z-index: 1;
+} */
+.sect2::after {
+  content: "";
+  clear: both;
+  display: table;
 }
