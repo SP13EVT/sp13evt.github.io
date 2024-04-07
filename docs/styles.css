@@ -54,7 +54,7 @@ font:20px Arial;
   border: 1px solid black;
   border-radius: 10px;
   margin: 10px;
-  width: 300px; /* default width for the boxes */
+  width: 200px; /* default width for the boxes */
   height: 300px; /* default height for the boxes */
   display: flex;
   flex-direction: column;
@@ -66,8 +66,8 @@ font:20px Arial;
 
 }
 .sect2 img{
-  width: 20%;
-  height: 20%;
+  width: 100%;
+  height: 100%;
   border-radius: 10px;
   object-fit: cover;
   position: absolute;
