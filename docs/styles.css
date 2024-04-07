@@ -57,8 +57,7 @@ font:20px Arial;
   display: grid;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
-  position: relative;
+  position: center;
   text-decoration: none;
 /*   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
 }
