@@ -53,7 +53,7 @@ font:20px Arial;
   border-radius: 10px;
   margin: 10px;
   width: 200px; /* default width for the boxes */
-  height: 50px; /* default height for the boxes */
+  height: 500px; /* default height for the boxes */
   display: grid;
   align-items: center;
   justify-content: center;
