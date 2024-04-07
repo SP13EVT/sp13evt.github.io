@@ -49,6 +49,8 @@ font:20px Arial;
   text-align: center;
   text-decoration: none;
   padding: 8px 10px;
+}
+.sect2 {
   border: 1px solid black;
   border-radius: 10px;
   margin: 10px;
@@ -63,7 +65,7 @@ font:20px Arial;
   text-decoration: none;
 
 }
-.textFormat img{
+.sect2 img{
   width: 20%;
   height: 20%;
   border-radius: 10px;
