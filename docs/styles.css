@@ -39,7 +39,7 @@ font:20px Arial;
   height:500; 
   margin: auto;
   background-color:white;
-  display: grid;
+  display: block;
 }
 .textFormat {
   font:20px Arial;
@@ -54,8 +54,7 @@ font:20px Arial;
   margin: 10px;
   width: 200px; /* default width for the boxes */
   height: 50px; /* default height for the boxes */
-  display: flex;
-  flex-direction: column;
+  display: grid;
   align-items: center;
   justify-content: center;
   overflow: hidden;
