@@ -48,32 +48,35 @@ font:20px Arial;
   text-decoration: none;
   padding: 8px 10px;
 }
+.row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  width: 90%;
+  max-width: 1200px;
+  margin: 60px auto 20px; /* Adjusted the top margin to account for the top-bar */
+}
 .column {
-  position: center;
-  width: 50%;
-  padding: 5px;
-  /*border: 1px solid black;
+  border: 1px solid black;
   border-radius: 10px;
   margin: 10px;
-  width: 200px;
-  height: 500px;
-  display: table;
-  
+  width: 300px; /* default width for the boxes */
+  height: 400px; /* default height for the boxes */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
-  position: center;
+  overflow: hidden;
+  position: relative;
   text-decoration: none;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
 }
-/* .sect2 img{
+.box img {
+  width: 100%;
+  height: 100%;
   border-radius: 10px;
   object-fit: cover;
   position: absolute;
   top: 0;
   left: 0;
   z-index: 1;
-} */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
 }
