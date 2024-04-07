@@ -49,16 +49,17 @@ font:20px Arial;
   padding: 8px 10px;
 }
 .sect2 {
-  float: left;
+  float: center;
   width: 50%;
   padding: 5px;
+  align-items: center;
   /*border: 1px solid black;
   border-radius: 10px;
   margin: 10px;
   width: 200px;
   height: 500px;
   display: table;
-  align-items: center;
+  
   justify-content: center;
   position: center;
   text-decoration: none;
