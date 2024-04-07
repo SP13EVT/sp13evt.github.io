@@ -40,8 +40,6 @@ font:20px Arial;
   margin: auto;
   background-color:white;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-
 }
 .textFormat {
   font:20px Arial;
@@ -63,7 +61,7 @@ font:20px Arial;
   overflow: hidden;
   position: relative;
   text-decoration: none;
-
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 .sect2 img{
   border-radius: 10px;
