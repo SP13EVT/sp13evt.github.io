@@ -48,7 +48,7 @@ font:20px Arial;
   text-decoration: none;
   padding: 8px 10px;
 }
-.sect2 {
+.column {
   float: center;
   width: 50%;
   padding: 5px;
@@ -73,7 +73,7 @@ font:20px Arial;
   left: 0;
   z-index: 1;
 } */
-.sect2::after {
+.row::after {
   content: "";
   clear: both;
   display: table;
