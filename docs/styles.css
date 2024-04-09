@@ -42,8 +42,8 @@
   background-color:white;
   display: block;
 }
-.textFormat {
-  font:48px Arial;
+.Title {
+  font:38px;
   color: black;
   text-align: center;
   text-decoration: none;
@@ -81,14 +81,15 @@
   z-index: 1;
 }
 .paragraph {
-	width: 90%;
+	width: 60%;
 	margin: 50px auto;
 	padding: 20px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .paragraphHeader {
 	font:48px;
-	color: black;
-	text-align: left;
+	line-height: 4.5;
+	text-align: Center;
 }
 .paragraphContent {
 	font:20px;
