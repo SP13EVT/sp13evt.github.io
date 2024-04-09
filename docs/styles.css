@@ -57,7 +57,7 @@
   max-width: 1200px;
   margin: 60px auto 20px; /* Adjusted the top margin to account for the top-bar */
 }
-.figure {
+#content figure {
 	border-radius: 10px;
 	  width: 300px; /* default width for the boxes */
 	  height: 400px; /* default height for the boxes */
@@ -69,7 +69,7 @@
 	  position: relative;
 	  text-decoration: none;
 }
-.figcaption {
+#content figcaption {
 	font-size:20px;
 	text-align: Center;
 }
