@@ -1,5 +1,6 @@
 	body {
          box-sizing: border-box;
+		font-family: Arial;
          margin: 0;
          background-color: black;
          }
@@ -7,7 +8,7 @@
          header {
            background-color: #FFBF00;
            height:100px;
-font:20px Arial;
+	   font:20px;
          }
          
          .navtext a {
@@ -42,7 +43,7 @@ font:20px Arial;
   display: block;
 }
 .textFormat {
-  font:20px Arial;
+  font:48px Arial;
   color: black;
   text-align: center;
   text-decoration: none;
@@ -78,4 +79,19 @@ font:20px Arial;
   top: 0;
   left: 0;
   z-index: 1;
+}
+.paragraph {
+	width: 90%;
+	margin: 50px auto;
+	padding: 20px;
+}
+.paragraphHeader {
+	font:48px;
+	color: black;
+	text-align: left;
+}
+.paragraphContent {
+	font:20px;
+	color: black;
+	text-align: left;
 }
