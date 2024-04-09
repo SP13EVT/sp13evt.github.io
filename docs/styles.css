@@ -56,7 +56,7 @@ font:20px Arial;
   max-width: 1200px;
   margin: 60px auto 20px; /* Adjusted the top margin to account for the top-bar */
 }
-.column {
+.row figure {
 	border-radius: 10px;
   margin: 10px;
   width: 300px; /* default width for the boxes */
@@ -69,7 +69,7 @@ font:20px Arial;
   position: relative;
   text-decoration: none;
 }
-.column img {
+.row img {
   width: 100%;
   height: 100%;
   border-radius: 10px;
