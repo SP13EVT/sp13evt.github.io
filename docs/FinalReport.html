@@ -1,60 +1,37 @@
 <html>
-   <head>
-   <style>
-	body {
-         box-sizing: border-box;
-         margin: 0;
-         background-color: #f0f0f0;
-         }
-         
-         header {
-           background-color: black;
-           height:100px;
-         }
-         
-         .topnav a {
-         float: left;
-         color: #f8f8f8;
-         text-align: center;
-         text-decoration: none;
-         padding: 10px 10px;
-         }
-         
-         .topnav a:hover {
-         background-color: black;
-         }
-         
-         #topnav-right {
-         float: right;    
-         }
-	 .bodyHeader a {
+<head>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
-	 }
-   </style>
-   </head>
-   <body>
-      <header>
-         <div class="topnav">
-            <a href="#">
-               <img src="C:\Users\domin\Desktop\evt.jpg" alt="KSU EVT" style="width:500px;height:600px;">
-            </a>
-            <a href="#">
-               <h2>Homepage</h2>
-            </a>
-            <div id="topnav-right">
-               <a href="#">
-                  <h2>Final Report</h2>
-               </a>
-               <a href="#">
-                  <h2>Prototype Demo</h2>
-               </a>
-            </div>
-         </div>
-      </header>
-      
-    <div align="center">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-      labore et dolore magna aliqua.f
-    </div>
-   </body>
+<!-- code responsible for creating the navigation bar at the top of the screen -->
+<header>
+   <div class="navimg">
+      <a>
+      <img src="images/evt.jpg" alt="KSU EVT" style="width:100;height:100;">
+      </a>
+   </div>
+   <div class="navtext">
+      <a href="#">
+      <h2>Homepage</h2>
+      </a>
+      <div id="navtext-right">
+         <a href="FinalReport.html">
+         <h2>Final Report</h2>
+         </a>
+         <a href="#">
+         <h2>Prototype Demo</h2>
+         </a>
+      </div>
+   </div>
+</header>
+
+<!-- code responsible for the body of the screen -->
+<div class="bodyBackground">
+   <div class="Title">
+      CS 4850-01 Spring 2024: SP-13 EVT Final Report
+   </div>
+	<object data = "temp.pdf" type = "application/pdf" width = "90%" height = "700px"
+</div>
+</body>
 </html>
