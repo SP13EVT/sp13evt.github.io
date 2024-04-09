@@ -37,9 +37,9 @@
  }
 .bodyBackground {
   width:70%; 
-  height:600; 
+  height:1000; 
   margin: auto;
-  background-color:white;
+  background-color:#4e4f50;
   display: block;
 }
 .Title {
