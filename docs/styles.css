@@ -8,7 +8,7 @@
          header {
            background-color: #FFBF00;
            height:100px;
-	   font:20px;
+	   font-size:20px;
          }
          
          .navtext a {
@@ -37,13 +37,13 @@
  }
 .bodyBackground {
   width:70%; 
-  height:5000; 
+  height:500; 
   margin: auto;
   background-color:white;
   display: block;
 }
 .Title {
-  font:38px;
+  font-size:38px;
   color: black;
   text-align: center;
   text-decoration: none;
@@ -87,12 +87,12 @@
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .paragraphHeader {
-	font:48px;
+	font-size:48px;
 	line-height: 4.5;
 	text-align: Center;
 }
 .paragraphContent {
-	font:20px;
+	font-size:20px;
 	color: black;
 	text-align: left;
 }
