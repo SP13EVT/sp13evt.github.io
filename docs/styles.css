@@ -39,7 +39,7 @@
   width:70%; 
   height:1200; 
   margin: auto;
-  background-color:#4e4f50;
+  background-color:#b1b1b1;
   display: block;
 }
 .Title {
@@ -84,12 +84,13 @@
 	width: 60%;
 	margin: 50px auto;
 	padding: 20px;
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	outline: 5px solid black;
 }
 .paragraphHeader {
 	font-size:48px;
 	line-height: 4.5;
 	text-align: Center;
+	border-bottom: 1rem solid black;
 }
 .paragraphContent {
 	font-size:20px;
